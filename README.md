@@ -14,7 +14,7 @@
 **This file system does the following:**  
 Format the volume, create and maintain a free space management system, initialize a root directory and maintain directory information, create, read, write, and delete files, and display info.  
 Our system uses extents to manage free space and allocated spaces, with support for discontigious file allocation.  
-Please read our documentation and write up for description of the systems, writeup of each individual function, a hex dump analysis, and more.  
+Please read our [documentation and write up](https://github.com/KaiserMighty/LowLevel-FileSystem/blob/main/Writeup%20and%20Documentation.pdf) for description of the systems, writeup of each individual function, a hex dump analysis, and more.  
 
 A shell program designed to demonstrate the file system called fsshell.c is provided.  It has a number of built in functions:
 ```
